@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="contacts.css" />
+    <title>Contact Form</title>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+                <button id="open-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+            </div>
+        </div>
+        <nav>
+            <ul type="none">
+                <li><i class="fas fa-home"></i><a href="index.html">About</a></li>
+                <li><i class="fa fa-bars"></i><a href="menu.html"> Menu</a></li>
+                <li><i class="fas fa-envelope"></i><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <section class="order" id="order">
+
+            <h2 class="sub-heading"> Order now and get fast and free shipping! </h3>
+
+                <form action="">
+
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Full name:</span>
+                            <input type="text" placeholder="enter your name">
+                        </div>
+                        <div class="input">
+                            <span>Contact number:</span>
+                            <input type="number" placeholder="enter your number">
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Item name:</span>
+                            <input type="text" placeholder="enter food name">
+                        </div>
+                        <div class="input">
+                            <span>Additional food</span>
+                            <input type="test" placeholder="extra with food">
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Number of orders:</span>
+                            <input type="number" placeholder="how many orders">
+                        </div>
+                        <div class="input">
+                            <span>Date and time</span>
+                            <input type="datetime-local">
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Address:</span>
+                            <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="input">
+                            <span>Additional comments:</span>
+                            <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div id="my_form">
+
+                        <input type="submit" value="order now" class="btn" id="nextStep">
+                    </div>
+
+
+                    <div id="thank_you" style="display: none;">
+                        <p>Thanks for filling up the form!</p>
+                        <button type="submit">Close</button>
+                    </div>
+
+                </form>
+
+
+
+        </section>
+    </div>
+    <div>
+        <footer class="credit"> copyright @ 2022 by <span>Aisha, Elan, Orzeeta, Ayesha </span> </footer>
+    </div>
+    <script src="contacts.js"></script>
+
+</body>
